@@ -333,9 +333,9 @@ footer .footer__horario div {
         justify-items: center;
     }
 
-    .home__img-main {
-        position: relative;
-        right: 0;
+    .home__img .home__img-main {
+        position: relative !important;
+        right: 0 !important;
     }
 
     .home__img-bg {
@@ -499,4 +499,21 @@ footer .footer__horario div {
     .nosotros__SobreNosotrosSection {
         width: 100%;
     }
+}
+
+/* Menu */
+
+.menu {
+    padding: 7rem 0 0 0;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.menu-productos {
+    display: flex;
+    flex-wrap: wrap;
 }
